@@ -227,10 +227,10 @@ EOF;
 			// Draw an outer SVG and transform the inner one 
 			$renderer->doc .= "<div style='height:" . $imagewidth . "px; width:" . $imageheight . "px;'>";
 			$renderer->doc .= "<svg viewbox-'0 0 ".$imageheight." ".$imagewidth."' width=".$imageheight." height=".$imagewidth."><g transform='rotate(90 0 ".$imageheight.") translate(-".$imageheight." 0) '>";
-			$renderer->doc .= "<svg viewbox='0 0 ".$imagewidth." ".$imageheight."' width=".$imagewidth." height=".$imageheight." style='line-height:0px;'>";		
+			$renderer->doc .= "<svg viewbox='0 0 ".$imagewidth." ".$imageheight."' width=".$imagewidth." height=".$imageheight." style='line-height:30px;'>";		
 		} else {
 			$renderer->doc .= "<div style='height:" . $imageheight . "px; width:" . $imagewidth . "px;'>";
-			$renderer->doc .= "<svg viewbox='0 0 ".$imagewidth." ".$imageheight."' style='line-height:0px;'>";
+			$renderer->doc .= "<svg viewbox='0 0 ".$imagewidth." ".$imageheight."' style='line-height:30px;'>";
 		}
 		
 		// Add a script that creates the tooltips

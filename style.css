@@ -37,7 +37,7 @@
 }
 
 div.patchpanel {
-	display: inline-block;
+	display: block;
 	padding: 20px;
 	vertical-align: top;
 	overflow: none;
